@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+
+}
+.container{
+    background-image: linear-gradient(#00000095,#00000095),
+    url(../image/forQoute.jpg);
+    background-size: 100% 100% ;
+    height: 100vh;
+    display: flex;
+
+
+
+}
+h1,h3{
+    color: white;
+}
+.content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+#quoteSec{
+    color: white;
+}
